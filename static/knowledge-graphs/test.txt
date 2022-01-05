@@ -1,2 +1,2 @@
 
-Generated KGs gets stored here
+Generated KG gets stored here
