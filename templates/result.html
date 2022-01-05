@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Knowledge Graph Generator</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <center>
+
+        <h1>
+             📈📉 Knowledge Graph Generator
+
+
+
+        </h1>
+        <h4>Knowledge Graph for the given text</h4>
+
+
+        <p><img src="{{ user_image }}"></p>
+
+
+     <div style=" width: fit-content; ">
+
+            <form action = "{{ url_for('back') }}" method="POST" class="text-center border border-light p-5" >
+
+                <div class="form-group" style="padding:0px;">
+
+                    <button type="submit" class="btn btn-primary btn-block mb-3">Try new text</button>
+
+                </div>
+
+            </form>
+
+        </div>
+</center>
+
+</body>
+
+</html>
